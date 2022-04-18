@@ -167,11 +167,23 @@ Administration System per Level and Position
 ### Example (Command only for Admins Level 4):
 Open LuxAdmin.pwn file
 Press CTRL+F and search a command (Ex: dcmd_giveweapon)
+using TextCopy;
 
-ClipboardService.SetText("if(PlayerInfo[playerid][Level] >= 4)");
-Set to:
-ClipboardService.SetText("if(PlayerInfo[playerid][Level] >= 3)");
+// ReSharper disable UnusedVariable
 
+class Snippets
+{
+    void SetText()
+    {
+        #region SetText
+        ClipboardService.SetText("if(PlayerInfo[playerid][Level] >= 4)");
+        #endregion
+    
+        #region SetText
+        ClipboardService.SetText("if(PlayerInfo[playerid][Level] >= 3)");
+        #endregion
+    }
+}
 Now administrators level 3 can use the command!
 
 
