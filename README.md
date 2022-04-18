@@ -1,8 +1,8 @@
-<p align="center">L.A.S LuX Admin System</p>
-<p align="center">UPDATE: 7/03[v1.6]</p>
-<p align="center">Whirlpool+Many CMDS+VIP+Much More</p>
-<p align="center">(v1.5) Released In: 07/03/2010</p>
-<p align="center">Development: 1.7</p>
+#L.A.S LuX Admin System
+##### UPDATE: 7/03[v1.6]
+##### Whirlpool+Many CMDS+VIP+Much More
+##### (v1.5) Released In: 07/03/2010
+#####Development: 1.7
 
 Possible release date: I really got many important things to do in my life. So, 1.7 will probably take a while to be released. For those who dont want to wait, feel free to edit the AdminScript, just keep the credits.
 
