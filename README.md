@@ -104,8 +104,10 @@ And many other functions!...
 #### Level 3: Master Moderator
 ##### With Access to Level 1 & 2 commands.
 - Set: set(health/armour/cash/score/skin/wanted/name/weather/time/world/interior/ping/gravity)
-- All: setallskin, armourall, setallskin, setallwanted, setallweather, setalltime, setallworld
-- All: setallscore, setallcash, giveallcash, giveallweapon, clearallchat, healall, disablechat
+- All: setall(skin/wanted/weather/time/world/score/cash)
+- All: giveall(cash/weapon)
+- All: armour/heal(all)
+- Chat: disablechat, clearallchat
 - Player: ubound, duel, akill, aka, caps,(un)freeze, kick, explode,(un)jail, force, eject, (s)removecash
 - Vehicle: car, carhealth, carcolour, destroycar, vget, givecar
 - Tele: teleplayer, gethere, get, move, moveplayer
@@ -113,8 +115,8 @@ And many other functions!...
 
 #### Level 4: Administrator
 ##### With Access to Level 1, 2 & 3 commands.
-- All: spawnall, muteall, unmuteall, getall, killall, freezeall, unfreezeall
-- All: kickall, slapalll, explodeall, disarmall, ejectall
+- All: spawn/mute/unmute/get/kill/freeze/unfreeze(all)
+- All: kick/slap/explode/disarm/eject(all)
 - Player: cage, ban, rban, tempban, settemplevel, crash
 - Adm: ctele, lockserver, enable, disable, spam, god, godcar, botcheck, forbidname, forbidword, fakedeath
 - Other: uconfig, die, hide, unhide
