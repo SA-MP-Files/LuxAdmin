@@ -10,6 +10,7 @@ UPDATE: 7/03/2010 [v1.6] | Whirlpool+Many CMDS+VIP+Much More
 - How To Use
 - Installation
 - Bugs
+- Images
 - Download
 - Additional Credits
 
@@ -209,6 +210,9 @@ If using Linux
 plugins Whirlpool.so 
 ```
 - Save the file
+
+### Bugs
+- /setcolor has a bug where it sets orange colour
 
 ### Image Gallery
 https://imgur.com/a/cU6KgcS
