@@ -112,31 +112,19 @@ Level 4: Administrator
 Level 5: Master Administrator
 Rcon: Rcon Administrator
 
-
-
 Gps System (I Tested with Npc)
-
-
-
 Spec System
-
-
-
 See more in log category!...
 
-[anchor=cmds]Commands
-
-
-Level 1: Basic Moderator
-
+### Commands
+#### Level 1: Basic Moderator
 Player: getinfo, weaps, ping, ip,
 Vehicle: fix, repair, addnos, tcar
 Tele: saveplacae, gotoplace
 Adm: onduty, saveskin, useskin, dontuseskin, setmytime, adminarea
 Other: lconfig, viplist, morning, reports, richlist, miniguns
 
-Level 2: Moderator
-
+#### Level 2: Moderator
 + Level 1 commands.
 Player: giveweapon, setcolour, burn, spawn, disarm, highlight, jetpack, flip, fu
 Player: warn, slap, (un)mute, laston, lspec, lspecoff
@@ -145,8 +133,7 @@ Tele: goto, vgoto, lgoto
 Adm: lmenu, clearchat, write, announce, announce2, screen, (un)lockcar
 Other: wanted, jailed, frozen, muted, fstyles
 
-Level 3: Master Moderator
-
+#### Level 3: Master Moderator
 + Level 1 and 2 commands.
 Set: set(health/armour/cash/score/skin/wanted/name/weather/time/world/interior/ping/gravity)
 All: setallskin, armourall, setallskin, setallwanted, setallweather, setalltime, setallworld
@@ -156,8 +143,7 @@ Vehicle: car, carhealth, carcolour, destroycar, vget, givecar
 Tele: teleplayer, gethere, get, move, moveplayer
 Other: gps, lcam, setpass, lammo, countdown, aweaps, invisible, visible
 
-Level 4: Administrator
-
+#### Level 4: Administrator
 + Level 1,2 and 3 commands.
 All: spawnall, muteall, unmuteall, getall, killall, freezeall, unfreezeall
 All: kickall, slapalll, explodeall, disarmall, ejectall
@@ -165,21 +151,18 @@ Player: cage, ban, rban, tempban, settemplevel, crash
 Adm: ctele, lockserver, enable, disable, spam, god, godcar, botcheck, forbidname, forbidword, fakedeath
 Other: uconfig, die, hide, unhide
 
-Level 5: Master Administrator
-
+#### Level 5: Master Administrator
 + Level 1,2,3 and 4 commands.
 + Level 5 is Immune for all commands
 Player: setlevel, fakechat, fakedeath, fakecmd
 Adm: god, sgod, console
 Other: pickup, object, respawncars
 Rcon: lrcon (Only Rcon Admins) (Use: /rcon lrcon)
-
 And some more!...
 
 
-Log
-
-Version 1.6:
+### Log
+#### Version 1.6:
 Added Safety Question + Response(For case you forgot your password) (+Response in Whirpool Hash - Impossible to hack)
 Fixed 'TwoRcon' System (Some Bugs)!
 Added VIPList Command (Show all online VIP players)
@@ -199,7 +182,7 @@ Fixed Conflicts between the GPS and Spectator Systems!
 Fixed Dialogs Conflicts with other scripts!
 Added Private Message (PM) System (+Send Message in Dialog) (+Comatible with Admin Commands (Ex: Mute) (+Simple to disable in script top)
 
-Version 1.5:
+#### Version 1.5:
 Added Show All AdmScript Configuration in Console!
 Added VIP System (With three Account Types) - Silver, Gold and Premium!
 Added New Functions in ladmin.inc - IsPlayerVipMember and IsPlayerVipType (See more in "How To Use")
@@ -209,12 +192,11 @@ Added Fighting Styles (In Dialog)
 Added Second Rcon System (Two RCON Passwords for more Security!) (Simple disable and config in top of script)
 Fixed SetLevel command Bug! (MaxLevel)
 Added System to easy change account Commands (Ex: register, login)
-
 The log of the older versions you find in the "Readme" file
 
 
-How To Use
-Make a new player VIP
+### How To Use
+### Make a new player VIP
 Making Command/Function only for VIP Members
 Making Command/Function only for specified VIP Account (Silver,Gold,Premium)
 Make yourself Admin
@@ -222,14 +204,14 @@ Using Admin Level in another script
 Change Level of a LuxAdmin command
 Change Account Commands
 
-Make a new player VIP:
+#### Make a new player VIP:
 Connect to your server
 Register new Account
 Log in RCON Admin
 Type /setvip [PlayerID] [AccountType]
 
 
-Making Command/Function only for VIP Members:
+#### Making Command/Function only for VIP Members:
 
 1. Add in top of your Script:
 pawn Code:
@@ -260,7 +242,7 @@ return 1;
 
 4. Done!
 
-Making Command/Function only for specified VIP Account (Silver,Gold,Premium):
+#### Making Command/Function only for specified VIP Account (Silver,Gold,Premium):
 
 1. Add in top of your Script:
 pawn Code:
@@ -297,11 +279,11 @@ return 1;
 4. Done!
 
 
-Make command for only administrators level 4 use:
+#### Make command for only administrators level 4 use:
 pawn Code:
 if (IsPlayerLuxAdm(playerid, 4))
 
-Exemple:
+#### Example:
 pawn Code:
 if(strcmp(cmd, "/help", true) == 0)
     {
@@ -313,15 +295,13 @@ if(strcmp(cmd, "/help", true) == 0)
   return 1;
     }
 
-
-
-Make yourself admin:
+### Make yourself admin:
 Connect to your server
 Register new Account
 Log in RCON Admin
 Type /setlevel [YourID] [Level]
 
-Other method:
+### Other method:
 Connect to your server
 Register new Account
 Disconnect
@@ -330,7 +310,7 @@ Open file then change "Level=0" to "Level=5"
 Reconnect in your server
 Ready! You are level 5 (Master Administrator)
 
-Using Admin Level in another script
+### Using Admin Level in another script
 Add " in top of your script
 Then, add line to your command:
 
@@ -338,7 +318,7 @@ Make command for only Administrators use:
 pawn Code:
 if (IsPlayerLuxAdm(playerid))
 
-Exemple:
+#### Example:
 pawn Code:
 if(strcmp(cmd, "/help", true) == 0)
     {
@@ -354,8 +334,8 @@ Make command for only administrators level 4 use:
 pawn Code:
 if (IsPlayerLuxAdm(playerid, 4))
 
-Exemple:
-pawn Code:
+### Example:
+
 if(strcmp(cmd, "/help", true) == 0)
     {
     if(IsPlayerLuxAdminLevel(playerid,4))
@@ -367,7 +347,7 @@ if(strcmp(cmd, "/help", true) == 0)
     }
 
 
-Change Level of a LuxAdmin command:
+### Change Level of a LuxAdmin command:
 Open LuxAdmin.pwn file
 Press CTRL+F and search a command (Ex: dcmd_giveweapon)
 Change number in Line: "
@@ -414,17 +394,11 @@ Then add 'Whirlpool' in plugins line (plugins Whirlpool)
 Save the file!
 Done!
 
-Download
+### Download
 
 Version 1.6 Beta:
 
-
-
-
-Version 1.5:
-
-
-Additional Credits
+### Additional Credits
 Y_Less - Whirlpool Plugin
 Some commands & some functions are based in LAdmin v4
 Kyeman - Spectating
