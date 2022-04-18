@@ -35,16 +35,16 @@ if(strcmp(cmd, "/armourme", true) == 0)
 // Command to Armour Player (can be used by anyone)
 CMD:armourme(playerid,parmas[])
 {
-	SetPlayerHealth(playerid, 100);
+	SetPlayerArmour(playerid, 100);
 	return 1;
 }
 
 // Command to Armour Admin (Any Level)
-CMD:healme(playerid,parmas[])
+CMD:armourme(playerid,parmas[])
 {
 	if(IsPlayerLuxAdmin(playerid)) else SendClientMessage(playerid, -1, "ERROR: You're not authorized to use this command!"); // Checking if player is Admin
 	{
-		SetPlayerHealth(playerid, 100);
+		SetPlayerArmour(playerid, 100);
 	}
 	return 1;
 }
@@ -63,7 +63,7 @@ CMD:armourme(playerid,parmas[])
 //Alternatively, you can also use shortform, from "IsPlayerLuxAdminLevel" to "IsPlayerLuxAdm". Example Script is given below
 
 // Command to Armour Admin (Any Level)
-CMD:healme(playerid,parmas[])
+CMD:armourme(playerid,parmas[])
 {
 	if(IsPlayerLuxAdm(playerid)) // Add the function that will check if the Player is Admin
 	{
@@ -74,7 +74,7 @@ CMD:healme(playerid,parmas[])
 }
 
 // Command to Armour Admin (Level 2 and above Only)
-CMD:healme(playerid,parmas[])
+CMD:armourme(playerid,parmas[])
 {
 	if (IsPlayerLuxAdm(playerid, 2)) // Add the function that will check if the Player is Admin Level 2
 	{
