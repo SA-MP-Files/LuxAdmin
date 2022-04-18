@@ -1,7 +1,8 @@
-# LuxAdmin
-
-[FS]L.A.S LuX Admin System | UPDATE: 7/03[v1.6] | Whirlpool+Many CMDS+VIP+Much More
-(v1.5) Released In: 07/03/2010 | Development: 1.7
+<p align="center">#L.A.S LuX Admin System
+### UPDATE: 7/03[v1.6]
+### Whirlpool+Many CMDS+VIP+Much More
+### (v1.5) Released In: 07/03/2010
+### Development: 1.7</p>
 
 Possible release date: I really got many important things to do in my life. So, 1.7 will probably take a while to be released. For those who dont want to wait, feel free to edit the AdminScript, just keep the credits.
 
@@ -34,7 +35,7 @@ Bugs
 Download
 Additional Credits
 
-###Script
+### Script
 
 Type: Administration FilterScript
 Version: 1.6 Beta
