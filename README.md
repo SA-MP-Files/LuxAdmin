@@ -182,7 +182,7 @@ Type /setvip [PlayerID] [AccountType]
 
 
 #### Making Command/Function only for VIP Members:
-
+[Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/How%20to%20make%20Command%20for%20VIP.pwn)
 
 #### Making Command/Function only for specified VIP Account (Silver,Gold,Premium):
 
