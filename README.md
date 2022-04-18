@@ -1,12 +1,13 @@
 # LuxAdmin
-[FS]L.A.S LuX Admin System |UPDATE: 7/03[v1.6]|Whirlpool+Many CMDS+VIP+Much More
+
+[FS]L.A.S LuX Admin System | UPDATE: 7/03[v1.6] | Whirlpool+Many CMDS+VIP+Much More
 (v1.5) Released In: 07/03/2010 | Development: 1.7
 
 Possible release date: I really got many important things to do in my life. So, 1.7 will probably take a while to be released. For those who dont want to wait, feel free to edit the AdminScript, just keep the credits.
 
 
 
-Basic Info about 1.7:
+### Basic Info about 1.7:
 
 - YCMD, Sscanf,Foreach,y_ini.
 - Fixed "TwoRcon" bugs.
@@ -21,7 +22,7 @@ Basic Info about 1.7:
 - AntiCheats Improved (Now I'm using some funcions from JunkBuster).
 And alot of new things that maybe will make you happy.
 
-Menu
+### Menu
 Menu
 Script
 Functions
@@ -33,7 +34,7 @@ Bugs
 Download
 Additional Credits
 
-Script
+###Script
 
 Type: Administration FilterScript
 Version: 1.6 Beta
@@ -41,7 +42,7 @@ Last Update: 07/03/2010
 Created By: LuxurioN
 Licence: In end of post
 
-Functions
+### Functions
 
 + Whirlpool Hashed Passwords (Greater security)
 + Account System (Register, Login, Changepass)
@@ -100,7 +101,7 @@ Functions
 And many other functions!...
 
 
-Some Screens and Basic explanation:
+### Some Screens and Basic explanation:
 
 Administration System per Level and Position
 
@@ -371,7 +372,7 @@ Open LuxAdmin.pwn file
 Press CTRL+F and search a command (Ex: dcmd_giveweapon)
 Change number in Line: "
 
-Exemple (Command only for Admins Level 4):
+### Example (Command only for Admins Level 4):
 pawn Code:
 if(PlayerInfo[playerid][Level] >= 4)
 Set to:
@@ -380,7 +381,7 @@ if(PlayerInfo[playerid][Level] >= 3)
 Ready! Ready, now administrators level 3 can use the command!
 
 
-Change Account Commands:
+### Change Account Commands:
 
 Just change the Command of your preference (Lines 90-92):
 pawn Code:
@@ -389,7 +390,7 @@ pawn Code:
 #define ChangePassCommand changepass // Define the ChangePassword Command
 
 
-Installation
+### Installation
 Download the file!
 Unzip the Files! (Recommended use Winrar)
 Put 1LuxAdmin.amx' in your 'filterscripts' folder
@@ -403,7 +404,7 @@ Then add 'Whirlpool' in plugins line (plugins Whirlpool)
 Save the file!
 Done!
 
-Other Method:
+### Other Method:
 Copy all folders 'filterscripts,pawno,scriptfiles,plugins&#3 9;
 Replace the folders of your server for them.
 Open 'Server.cfg'
@@ -412,12 +413,6 @@ Add 'LuxAdmin' (filterscripts LuxAdmin)
 Then add 'Whirlpool' in plugins line (plugins Whirlpool)
 Save the file!
 Done!
-
-
-Bugs
-
-If you found a bug in this code. Please, report it here! For I fix in next Version
-
 
 Download
 
