@@ -122,8 +122,7 @@ And many other functions!...
 - Other: uconfig, die, hide, unhide
 
 #### Level 5: Master Administrator
-##### With Access to Level 1, 2, 3 & 4 commands.
-##### Level 5 is Immune for all commands
+##### With Access to Level 1, 2, 3 & 4 commands & Level 5 is immune for all commands
 - Player: setlevel, fakechat, fakedeath, fakecmd
 - Adm: god, sgod, console
 - Other: pickup, object, respawncars
