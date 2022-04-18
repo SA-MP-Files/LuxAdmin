@@ -168,7 +168,7 @@ Press CTRL+F and search a command (Ex: dcmd_giveweapon)
 Change number in Line: "
 
 ### Example (Command only for Admins Level 4):
-pawn Code:
+![Quote](https://github-readme-quotes.herokuapp.com/quote?theme=dark)
 if(PlayerInfo[playerid][Level] >= 4)
 Set to:
 pawn Code:
