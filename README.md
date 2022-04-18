@@ -144,85 +144,23 @@ Administration System per Level and Position
 - Log in RCON Admin
 - Type /setvip [PlayerID] [Level]
 
+##### Other Method
+- Go to your Account file "LuxAdmin/Accounts/YourName.sav
+- Open file then change "Level=0" to "Level=5"
+- Reconnect in your server
+- You are now level 5 Administrator
+
 #### Set yourself/a player as VIP
 - Connect to your server
 - Register new Account
 - Log in RCON Admin
 - Type /setvip [PlayerID] [AccountType/Level]
 
-#### Making Command/Function only for VIP Members:
-- [Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/How%20to%20make%20Command%20for%20VIP.pwn) for example script
-
-#### Making Command/Function only for specified VIP Account (Silver,Gold,Premium):
-- [Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/exampleVIP2.pwn) for example script
+#### Making Command for VIP Members:
+- [Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/exampleVIP.pwn) for example script
     
-#### Make command for only administrators level 4 use:
-pawn Code:
-if (IsPlayerLuxAdm(playerid, 4))
-
-#### Example:
-pawn Code:
-if(strcmp(cmd, "/help", true) == 0)
-    {
-    if(IsPlayerLuxAdminLevel(playerid,4))
-    {
-    //Function Here
-    }
-    else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You not is Administrator Level 4");
-  return 1;
-    }
-
-### Make yourself admin:
-Connect to your server
-Register new Account
-Log in RCON Admin
-Type /setlevel [YourID] [Level]
-
-### Other method:
-Connect to your server
-Register new Account
-Disconnect
-Go to your Account file "LuxAdmin/Accounts/YourName.sav
-Open file then change "Level=0" to "Level=5"
-Reconnect in your server
-Ready! You are level 5 (Master Administrator)
-
-### Using Admin Level in another script
-Add " in top of your script
-Then, add line to your command:
-
-Make command for only Administrators use:
-pawn Code:
-if (IsPlayerLuxAdm(playerid))
-
-#### Example:
-pawn Code:
-if(strcmp(cmd, "/help", true) == 0)
-    {
-    if(IsPlayerLuxAdmin(playerid))
-    {
-    //Function Here
-    }
-    else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You not is Administrator");
-  return 1;
-    }
-
-Make command for only administrators level 4 use:
-pawn Code:
-if (IsPlayerLuxAdm(playerid, 4))
-
-### Example:
-
-if(strcmp(cmd, "/help", true) == 0)
-    {
-    if(IsPlayerLuxAdminLevel(playerid,4))
-    {
-    //Function Here
-    }
-    else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You not is Administrator Level 4");
-  return 1;
-    }
-
+#### Make command for Administrators:
+- [Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/exampleAdmin.pwn) for example script
 
 ### Change Level of a LuxAdmin command:
 Open LuxAdmin.pwn file
