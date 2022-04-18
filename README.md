@@ -151,11 +151,11 @@ Log in RCON Admin
 Type /setvip [PlayerID] [AccountType]
 
 #### Making Command/Function only for VIP Members:
-[Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/How%20to%20make%20Command%20for%20VIP.pwn)
+[Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/How%20to%20make%20Command%20for%20VIP.pwn) for example script
 
 #### Making Command/Function only for specified VIP Account (Silver,Gold,Premium):
-
-
+[Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/exampleVIP2.pwn) for example script
+    
 #### Make command for only administrators level 4 use:
 pawn Code:
 if (IsPlayerLuxAdm(playerid, 4))
