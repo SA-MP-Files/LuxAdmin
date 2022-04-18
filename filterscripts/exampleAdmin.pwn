@@ -4,9 +4,11 @@
 
 // Function: IsPlayerLuxAdmin(playerid) 
 // Alternate Function: if(IsPlayerLuxAdm(playerid))
+// Note: With this function, Administrator of any level have access.
 
 // Function: if(IsPlayerLuxAdminLevel(playerid, LEVEL))
 // Alternate Function: if(IsPlayerLuxAdm(playerid, LEVEL))
+// Note: With this function, Administrator of specific level have access.
 
 // Level 1: Basic Moderator
 // Level 2: Moderator
