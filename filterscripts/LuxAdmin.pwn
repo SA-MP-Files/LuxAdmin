@@ -1,6 +1,6 @@
 
 /*
-                                  Copyright(c), LuxurioN™
+                                  Copyright(c), LuxurioNâ„¢
 ________________________________________________________________________________________________
 
 						 _                           _       _   _
@@ -4159,7 +4159,7 @@ dcmd_lcredits(playerid,params[])
 	SendClientMessage(playerid, green, " ");
  	SendClientMessage(playerid, green, "___________ |- Credits -| ___________");
 	SendClientMessage(playerid, green, " ");
-	format(string,sizeof(string)," L.A.S - LuX Administration System™ %s",LVersion);
+	format(string,sizeof(string)," L.A.S - LuX Administration Systemâ„¢ %s",LVersion);
 	SendClientMessage(playerid,orange,string);
  	SendMessageToCMD(playerid);
 	return SendClientMessage(playerid,green,"________________________________");
@@ -12231,4 +12231,4 @@ public FollowPlayer(playerid)
 }
 #endif
 
-// © LuxurioN 2010 - All rights Reserved
+// Â© LuxurioN 2010 - All rights Reserved
