@@ -2,7 +2,7 @@
 #include <ladmin> // Add this line after <a_samp>
 #include <zcmd> // Add this line if you want to use ZCMD
  
-// Function: If(IsPlayerVipType(playerid, Level))
+// Function: If(IsPlayerVipType(playerid, LEVEL))
 // Level 1: Silver Account
 // Level 2: Gold Account
 // Level 3: Premium Account
