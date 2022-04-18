@@ -9,7 +9,7 @@
 // Type 3: Premium Account
 
 // Usage: If(IsPlayerVipType(playerid, 3))
-// In above line the VIP Type 3 will have access to command (example is given below)
+// In above line the VIP Type 3 will have access to command (example is given below for Type 2)
 
 // Note: These can be configurable in main LuxAdmin Script & Max Level can be edited in LuxAdmin Script.
 
