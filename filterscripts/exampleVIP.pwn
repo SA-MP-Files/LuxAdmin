@@ -7,6 +7,7 @@
 // Level 2 - Gold Account
 // Level 3 - Premium Account
 // Note: These can be configurable in main LuxAdmin Script
+// Max VIP Level can be edited in LuxAdmin Script.
 
 // Command to Heal Player (can be used by anyone)
 if(strcmp(cmd, "/healme", true) == 0)
@@ -22,7 +23,7 @@ if(strcmp(cmd, "/healme", true) == 0)
 	{
 		SetPlayerHealth(playerid, 100);
 	}
-	else SendClientMessage(playerid, -1, "ERROR: You're not VIP to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You're not VIP level from 1 to 3 to use this command!");
 	return 1;
 }
 
@@ -48,7 +49,7 @@ CMD:healme(playerid,parmas[])
 // Command to Heal VIP (Any Level)
 CMD:healme(playerid,parmas[]) // Checking if player is any level VIP
 {
-	if(IsPlayerVipMember(playerid)) else SendClientMessage(playerid, -1, "ERROR: You're not VIP to use this command!");
+	if(IsPlayerVipMember(playerid)) else SendClientMessage(playerid, -1, "ERROR: You're not VIP level from 1 to 3 to use this command!");
 	{
 		SetPlayerHealth(playerid, 100);
 	}
