@@ -82,7 +82,7 @@ And many other functions!...
 - Level 3: Master Moderator
 - Level 4: Administrator
 - Level 5: Master Administrator
-- Rcon: Rcon Administrator
+- RCON: RCON Administrator
 
 ### COMMANDS
 #### Level 1: Basic Moderator
@@ -125,7 +125,7 @@ And many other functions!...
 - Player: setlevel, fakechat, fakedeath, fakecmd
 - Adm: god, sgod, console
 - Other: pickup, object, respawncars
-- Rcon: lrcon (Only Rcon Admins) (Use: /rcon lrcon)
+- RCON: lrcon (Only RCON Admins) (Use: /rcon lrcon)
 - And some more!...
 
 ### HOW TO USE
