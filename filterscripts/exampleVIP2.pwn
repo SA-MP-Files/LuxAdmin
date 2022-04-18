@@ -52,11 +52,12 @@ CMD:healme(playerid,parmas[]) // Checking if player is any level VIP
 	return 1;
 }
 
-CMD:healme(playerid,parmas[]) // Checking if player is VIP Level 2
+CMD:healme(playerid,parmas[])
 {
-	if(IsPlayerVipType(playerid, 2)) else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You need VIP Level 2 to use this command!");
+	if(IsPlayerVipType(playerid, 2)) // Checking if player is VIP Level 2
 	{
 		SetPlayerHealth(playerid, 100);
 	}
+	else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You need VIP Level 2 to use this command!");
 	return 1;
 }
