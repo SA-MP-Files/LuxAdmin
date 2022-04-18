@@ -22,7 +22,7 @@ if(strcmp(cmd, "/healme", true) == 0)
 	{
 		SetPlayerHealth(playerid, 100);
 	}
-	else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You're not authorized to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You're not VIP to use this command!");
 	return 1;
 }
 
@@ -33,7 +33,7 @@ if(strcmp(cmd, "/healme", true) == 0)
 	{
 		SetPlayerHealth(playerid, 100);
 	}
-	else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You're not authorized to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You are not VIP Level 2 to use this command!");
 	return 1;
 }
 
@@ -48,7 +48,7 @@ CMD:healme(playerid,parmas[])
 // Command to Heal VIP (Any Level)
 CMD:healme(playerid,parmas[]) // Checking if player is any level VIP
 {
-	if(IsPlayerVipMember(playerid)) else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You're not authorized to use this command!");
+	if(IsPlayerVipMember(playerid)) else SendClientMessage(playerid, -1, "ERROR: You're not VIP to use this command!");
 	{
 		SetPlayerHealth(playerid, 100);
 	}
@@ -62,6 +62,6 @@ CMD:healme(playerid,parmas[])
 	{
 		SetPlayerHealth(playerid, 100);
 	}
-	else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You need VIP Level 2 to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You are not VIP Level 2 to use this command!");
 	return 1;
 }
