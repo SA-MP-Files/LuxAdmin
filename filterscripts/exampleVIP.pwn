@@ -3,6 +3,7 @@
 #include <zcmd> // Add this line if you want to use ZCMD
  
 // Function: If(IsPlayerVipType(playerid, TYPE))
+// Note: With this function, VIP of any level have access.
 
 // Type 1: Silver Account
 // Type 2: Gold Account
@@ -10,6 +11,7 @@
 
 // Usage: If(IsPlayerVipType(playerid, 3))
 // In above line the VIP Type 3 will have access to command (example is given below for Type 2)
+// Note: With this function, VIP of specific level have access.
 
 // Note: These can be configurable in main LuxAdmin Script & Max Level can be edited in LuxAdmin Script.
 
