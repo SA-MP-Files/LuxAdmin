@@ -225,7 +225,7 @@ https://imgur.com/a/cU6KgcS
 - LuxurioN for Original Script
 
 ### ADDITIONAL CREDITS
-- Y_Less - Whirlpool Plugin [SouthClaws Repository] (https://github.com/Southclaws/samp-whirlpool)
+- Y_Less - Whirlpool Plugin [SouthClaws Repository](https://github.com/Southclaws/samp-whirlpool)
 - Some commands & some functions are based in LAdmin v4
 - Kyeman - Spectating
 - RCON Commands - Yom
