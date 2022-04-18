@@ -1,4 +1,4 @@
-#<p align="center">L.A.S LuX Admin System</p>
+<p align="center">L.A.S LuX Admin System</p>
 <p align="center">UPDATE: 7/03[v1.6]</p>
 <p align="center">Whirlpool+Many CMDS+VIP+Much More</p>
 <p align="center">(v1.5) Released In: 07/03/2010</p>
