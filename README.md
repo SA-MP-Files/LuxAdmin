@@ -1,5 +1,5 @@
 # L.A.S LuX Admin System
-## NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable.
+#### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable.
 
 UPDATE: 7/03[v1.6]
 
