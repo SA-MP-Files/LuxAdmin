@@ -225,12 +225,15 @@ Done!
 
 [Version 1.6 Beta](https://github.com/isiddharthasharma/LuxAdmin/releases/tag/1.6)
 
+### Credits
+- Lux for Original Script
+
 ### Additional Credits
-Y_Less - Whirlpool Plugin
-Some commands & some functions are based in LAdmin v4
-Kyeman - Spectating
-Rcon Cmds - Yom
-TempBan based on sBanMachine
-Luby - Meters Distance
-Sandra - Flying Cam
-Testers - Regalado_xD, [H8]Knight, [LT]Scorpion
+- Y_Less - Whirlpool Plugin
+- Some commands & some functions are based in LAdmin v4
+- Kyeman - Spectating
+- Rcon Cmds - Yom
+- TempBan based on sBanMachine
+- Luby - Meters Distance
+- Sandra - Flying Cam
+- Testers - Regalado_xD, [H8]Knight, [LT]Scorpion
