@@ -68,7 +68,7 @@ CMD:healme(playerid,parmas[])
 	{
 		SetPlayerArmour(playerid, 100);
 	}
-  else SendClientMessage(playerid, -1, "ERROR: You're not authorized to use this command!");
+  	else SendClientMessage(playerid, -1, "ERROR: You're not authorized to use this command!");
 	return 1;
 }
 
