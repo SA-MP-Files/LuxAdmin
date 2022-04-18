@@ -65,7 +65,7 @@ CMD:armourme(playerid,parmas[])
 // Command to Armour Admin (Any Level)
 CMD:healme(playerid,parmas[])
 {
-	if(IsPlayerLuxAdm(playerid)) // Checking if player is Admin
+	if(IsPlayerLuxAdm(playerid)) // Add the function that will check if the Player is Admin
 	{
 		SetPlayerArmour(playerid, 100);
 	}
@@ -76,7 +76,7 @@ CMD:healme(playerid,parmas[])
 // Command to Armour Admin (Level 2 and above Only)
 CMD:healme(playerid,parmas[])
 {
-	if (IsPlayerLuxAdm(playerid, 2)) // Checking if player is Admin Level 4
+	if (IsPlayerLuxAdm(playerid, 2)) // Add the function that will check if the Player is Admin Level 2
 	{
 		SetPlayerArmour(playerid, 100);
 	}
