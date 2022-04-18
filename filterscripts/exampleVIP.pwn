@@ -2,11 +2,10 @@
 #include <ladmin> // Add this line after <a_samp>
 #include <zcmd> // Add this line if you want to use ZCMD
  
-// If(IsPlayerVipType(playerid, LEVEL))
-// Types:
-// 1 - Silver Account
-// 2 - Gold Account
-// 3 - Premium Account
+// Function: If(IsPlayerVipType(playerid, Level))
+// Level 1 - Silver Account
+// Level 2 - Gold Account
+// Level 3 - Premium Account
 // Note: Names can be configurable in main LuxAdmin Script
 
 // Command to Heal Player (can be used by anyone)
