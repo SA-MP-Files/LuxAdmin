@@ -6,7 +6,7 @@
 // Alternate Function: if(IsPlayerLuxAdm(playerid))
 
 // Function: if(IsPlayerLuxAdminLevel(playerid, LEVEL))
-// Alternate Function: if (IsPlayerLuxAdm(playerid, LEVEL))
+// Alternate Function: if(IsPlayerLuxAdm(playerid, LEVEL))
 
 // Level 1: Basic Moderator
 // Level 2: Moderator
@@ -14,6 +14,13 @@
 // Level 4: Administrator
 // Level 5: Master Administrator
 // RCON: RCON Administrator
+
+// Usage: if(IsPlayerLuxAdminLevel(playerid, 5))
+// In above line the Admin Level 5 will have access to command (example is given below for level 2)
+
+// Alternate Usage: if(IsPlayerLuxAdm(playerid, 5))
+// In above line the Admin Level 5 will have access to command (example is given below for level 2)
+
 // Note: These can be configurable in main LuxAdmin Script & Max Level can be edited in LuxAdmin Script.
 
 
