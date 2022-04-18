@@ -7,6 +7,7 @@
 
 // Function: if(IsPlayerLuxAdminLevel(playerid, LEVEL))
 // Alternate Function: if (IsPlayerLuxAdm(playerid, LEVEL))
+
 // Level 1: Basic Moderator
 // Level 2: Moderator
 // Level 3: Master Moderator
