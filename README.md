@@ -1,4 +1,4 @@
-#L.A.S LuX Admin System
+# L.A.S LuX Admin System
 ## NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable.
 
 UPDATE: 7/03[v1.6]
@@ -165,40 +165,6 @@ Rcon: lrcon (Only Rcon Admins) (Use: /rcon lrcon)
 And some more!...
 
 
-### Log
-#### Version 1.6:
-Added Safety Question + Response(For case you forgot your password) (+Response in Whirpool Hash - Impossible to hack)
-Fixed 'TwoRcon' System (Some Bugs)!
-Added VIPList Command (Show all online VIP players)
-Added "Duty Mode" - Administrators now can enter in "Duty" or "Playing" Mode!
-Fixed Spectating System small bug
-Added Flying Cam System (CamHack) (Only for Administradors) (Simple to disable in top of script)
-Announcements System! (+In TextDraw) (+Enable/Disable in Dialog) (+Simple to Config Announces in FS) (+Enable/Diable in Config File!)
-Added Function to change the Administrators colors (In command /admins) (Change in configuration, top of script)
-Fixed VIP Function small Bug! (+
-Added dialog in "Register" & "Login" command! (Even if "MustLogin" and "MustRegister" is disabled)!
-Safety question is optional, if you forget the password the first time, you can use your answer as the password!
-Fixed "Enable/Disable" command Bugs!
-Update in Countdown Command - Added Seconds and Freeze or Unfreeze players!
-Added VIP Chat! (Use '*' to talk in VIP chat - only if you is VIP Player) (Ex: *hi)
-Fixed "/setvip' command small Bug!
-Fixed Conflicts between the GPS and Spectator Systems!
-Fixed Dialogs Conflicts with other scripts!
-Added Private Message (PM) System (+Send Message in Dialog) (+Comatible with Admin Commands (Ex: Mute) (+Simple to disable in script top)
-
-#### Version 1.5:
-Added Show All AdmScript Configuration in Console!
-Added VIP System (With three Account Types) - Silver, Gold and Premium!
-Added New Functions in ladmin.inc - IsPlayerVipMember and IsPlayerVipType (See more in "How To Use")
-Added System to simple change account commands (Login,Register and Changepass, in top of Script!
-Added Execute Command Dialog (Run any command of FS,GM,... ) (Per Cmd: /execcmd or using Keys (Simple disable in Top)!
-Added Fighting Styles (In Dialog)
-Added Second Rcon System (Two RCON Passwords for more Security!) (Simple disable and config in top of script)
-Fixed SetLevel command Bug! (MaxLevel)
-Added System to easy change account Commands (Ex: register, login)
-The log of the older versions you find in the "Readme" file
-
-
 ### How To Use
 ### Make a new player VIP
 Making Command/Function only for VIP Members
@@ -217,34 +183,6 @@ Type /setvip [PlayerID] [AccountType]
 
 #### Making Command/Function only for VIP Members:
 
-1. Add in top of your Script:
-pawn Code:
-#include 
-
-2. Go to your Command or Function (In Exemple, I used a command):
-pawn Code:
-if(strcmp(cmd, "/healme", true) == 0)
-{
-SetPlayerHealth(playerid, 100);
-return 1;
-}
-
-3. Add the function that will check if the Player is Vip:
-pawn Code:
-If(IsPlayerVipMember(playerid))
-It will look like this:
-pawn Code:
-if(strcmp(cmd, "/healme", true) == 0)
-{
-if(IsPlayerVipMember(playerid))
-{
-SetPlayerHealth(playerid, 100);
-}
-else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You not is a Vip Member!");
-return 1;
-}
-
-4. Done!
 
 #### Making Command/Function only for specified VIP Account (Silver,Gold,Premium):
 
