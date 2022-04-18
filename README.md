@@ -133,7 +133,7 @@ And many other functions!...
 
 #### RCON Login
 - Check your Server Config (server.cfg) and see RCON password (you may need to change it if you freshly downloaded the server files)
-- Go in game and write /rcon login <your password>
+- Go in game and write /rcon login yourpassword
     
 #### Set yourself/a player as Administrator
 - Connect to your server
