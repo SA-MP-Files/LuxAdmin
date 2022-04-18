@@ -180,25 +180,34 @@ Now administrators level 3 can use the command!
 ### Change Account Commands:
 
 Just change the Command of your preference (Lines 90-92):
-pawn Code:
+```
 #define RegisterCommand  register  // Define the Register Command
 #define LoginCommand      login    // Define the Login Command
 #define ChangePassCommand changepass // Define the ChangePassword Command
-
+```
 
 ### Installation
-Download the file!
-Unzip the Files! (Recommended use Winrar)
-Put 1LuxAdmin.amx' in your 'filterscripts' folder
-Put plugin 1Whirlpool' in your 'plugins' folder
-Put 'lfuncs', 'ldudb' and 'ladmin' in your 'pawno/include' folder
-After, put the folder 'LuxAdmin' in your 'scriptfiles' folder
-Open 'Server.cfg'
-Go to in line 'filterscripts;
-Add 'LuxAdmin' (filterscripts LuxAdmin)
-Then add 'Whirlpool' in plugins line (plugins Whirlpool)
-Save the file!
-Done!
+- Download the file
+- Unzip the Files!
+- Put 'LuxAdmin.pwn' and 'Luxadmin.amx' in your 'filterscripts' folder
+- Put plugin 'Whirlpool' in your 'plugins' folder
+- Put 'lfuncs', 'ldudb' and 'ladmin' in your 'pawno/include' folder
+- After, put the folder 'LuxAdmin' in your 'scriptfiles' folder
+- Open 'Server.cfg'
+- Go to in line 'filterscripts;
+- Add 'LuxAdmin' 
+```
+filterscripts LuxAdmin
+```
+- Then add 'Whirlpool' in plugins line 
+```
+plugins Whirlpool.dll
+    
+If using Linux
+```
+plugins Whirlpool.so 
+```
+- Save the file
 
 ### Other Method:
 Copy all folders 'filterscripts,pawno,scriptfiles,plugins&#3 9;
