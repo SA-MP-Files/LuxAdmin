@@ -2,6 +2,17 @@
 #include <ladmin> // Add this line after <a_samp>
 #include <zcmd> // Add this line if you want to use ZCMD
 
+// Function: IsPlayerLuxAdmin(playerid) OR if(IsPlayerLuxAdm(playerid))
+// Function: if(IsPlayerLuxAdminLevel(playerid, LEVEL)) OR if (IsPlayerLuxAdm(playerid, LEVEL))
+// Level 1: Basic Moderator
+// Level 2: Moderator
+// Level 3: Master Moderator
+// Level 4: Administrator
+// Level 5: Master Administrator
+// RCON: Rcon Administrator
+// Note: These can be configurable in main LuxAdmin Script & Max Level can be edited in LuxAdmin Script.
+
+
 // Command to Armour Player (can be used by anyone)
 if(strcmp(cmd, "/armourme", true) == 0)
 {
@@ -16,7 +27,7 @@ if(strcmp(cmd, "/armourme", true) == 0)
 	{
 		SetPlayerArmour(playerid, 100);
 	}
-	else SendClientMessage(playerid, -1, "ERROR: You're not authorized to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You need to be Administrator to use this command!");
 	return 1;
 }
 
@@ -27,7 +38,7 @@ if(strcmp(cmd, "/armourme", true) == 0)
 	{
 		SetPlayerArmour(playerid, 100);
 	}
-	else SendClientMessage(playerid, -1, "ERROR: You need administrator level 2 to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You need to be Administrator Level 2 to use this command!");
 	return 1;
 }
 
@@ -42,10 +53,11 @@ CMD:armourme(playerid,parmas[])
 // Command to Armour Admin (Any Level)
 CMD:armourme(playerid,parmas[])
 {
-	if(IsPlayerLuxAdmin(playerid)) else SendClientMessage(playerid, -1, "ERROR: You're not authorized to use this command!"); // Checking if player is Admin
+	if(IsPlayerLuxAdmin(playerid)) // Checking if player is Admin
 	{
 		SetPlayerArmour(playerid, 100);
 	}
+	else SendClientMessage(playerid, -1, "ERROR: You need to be Administrator to use this command!");
 	return 1;
 }
 
@@ -56,7 +68,7 @@ CMD:armourme(playerid,parmas[])
 	{
 		SetPlayerArmour(playerid, 100);
 	}
-	else SendClientMessage(playerid, -1, "ERROR: You need administrator level 2 to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You need to be Administrator Level 2 to use this command!");
 	return 1;
 }
 
@@ -69,7 +81,7 @@ CMD:armourme(playerid,parmas[])
 	{
 		SetPlayerArmour(playerid, 100);
 	}
-  	else SendClientMessage(playerid, -1, "ERROR: You're not authorized to use this command!");
+  	else SendClientMessage(playerid, -1, "ERROR: You need to be Administrator to use this command!");
 	return 1;
 }
 
@@ -80,6 +92,6 @@ CMD:armourme(playerid,parmas[])
 	{
 		SetPlayerArmour(playerid, 100);
 	}
-	else SendClientMessage(playerid, -1, "ERROR: You need administrator level 2 to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You need to be Administrator Level 2 to use this command!");
 	return 1;
 }
