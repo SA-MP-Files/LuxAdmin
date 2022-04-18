@@ -2,12 +2,11 @@
 #include <ladmin> // Add this line after <a_samp>
 #include <zcmd> // Add this line if you want to use ZCMD
  
-// Function: If(IsPlayerVipType(playerid, Level))
+// FUNCTION: If(IsPlayerVipType(playerid, Level))
 // Level 1 - Silver Account
 // Level 2 - Gold Account
 // Level 3 - Premium Account
-// Note: These can be configurable in main LuxAdmin Script
-// Max VIP Level can be edited in LuxAdmin Script.
+// Note: These can be configurable in main LuxAdmin Script & Max VIP Level can be edited in LuxAdmin Script.
 
 // Command to Heal Player (can be used by anyone)
 if(strcmp(cmd, "/healme", true) == 0)
