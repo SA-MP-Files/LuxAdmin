@@ -1,7 +1,7 @@
 # L.A.S LuX Admin System
 #### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable, given proper credit to owner and made some tutorials and cleared debris to understand it better.
 
-UPDATE: 7/03/2010 [v1.6] | Whirlpool+Many CMDS+VIP+Much More
+-UPDATE: 7/03/2010 [v1.6]
 
 ### CONTENTS
 - Script
