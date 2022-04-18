@@ -19,7 +19,7 @@ if(strcmp(cmd, "/healme", true) == 0)
 // Command to Heal VIP (Any Level)
 if(strcmp(cmd, "/healme", true) == 0)
 {
-	if(IsPlayerVipMember(playerid)) // Add the function that will check if the Player is VIP
+	if(IsPlayerVipMember(playerid)) // Checking via function if the Player is VIP
 	{
 		SetPlayerHealth(playerid, 100);
 	}
@@ -30,7 +30,7 @@ if(strcmp(cmd, "/healme", true) == 0)
 // Command to Heal VIP (Level 2 and above Only)
 if(strcmp(cmd, "/healme", true) == 0)
 {
-	if(IsPlayerVipType(playerid, 2)) // Add the function that will check if the Player is VIP Level 2
+	if(IsPlayerVipType(playerid, 2)) // Checking via function if the Player is VIP Level 2
 	{
 		SetPlayerHealth(playerid, 100);
 	}
@@ -47,19 +47,20 @@ CMD:healme(playerid,parmas[])
 }
 
 // Command to Heal VIP (Any Level)
-CMD:healme(playerid,parmas[]) // Checking if player is any level VIP
+CMD:healme(playerid,parmas[])
 {
-	if(IsPlayerVipMember(playerid)) else SendClientMessage(playerid, -1, "ERROR: You need to be VIP to use this command!");
+	if(IsPlayerVipMember(playerid)) // Checking via function if the Player is VIP
 	{
 		SetPlayerHealth(playerid, 100);
 	}
+	else SendClientMessage(playerid, -1, "ERROR: You need to be VIP to use this command!");
 	return 1;
 }
 
 // Command to Heal VIP (Level 2 and above Only)
 CMD:healme(playerid,parmas[])
 {
-	if(IsPlayerVipType(playerid, 2)) // Checking if player is VIP Level 2
+	if(IsPlayerVipType(playerid, 2)) // Checking via function if the Player is VIP Level 2
 	{
 		SetPlayerHealth(playerid, 100);
 	}
