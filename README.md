@@ -116,21 +116,21 @@ Administration System per Level and Position
 - Other: gps, lcam, setpass, lammo, countdown, aweaps, invisible, visible
 
 #### Level 4: Administrator
-+ Level 1,2 and 3 commands.
-All: spawnall, muteall, unmuteall, getall, killall, freezeall, unfreezeall
-All: kickall, slapalll, explodeall, disarmall, ejectall
-Player: cage, ban, rban, tempban, settemplevel, crash
-Adm: ctele, lockserver, enable, disable, spam, god, godcar, botcheck, forbidname, forbidword, fakedeath
-Other: uconfig, die, hide, unhide
+##### With Access to Level 1, 2 & 3 commands.
+- All: spawnall, muteall, unmuteall, getall, killall, freezeall, unfreezeall
+- All: kickall, slapalll, explodeall, disarmall, ejectall
+- Player: cage, ban, rban, tempban, settemplevel, crash
+- Adm: ctele, lockserver, enable, disable, spam, god, godcar, botcheck, forbidname, forbidword, fakedeath
+- Other: uconfig, die, hide, unhide
 
 #### Level 5: Master Administrator
-+ Level 1,2,3 and 4 commands.
-+ Level 5 is Immune for all commands
-Player: setlevel, fakechat, fakedeath, fakecmd
-Adm: god, sgod, console
-Other: pickup, object, respawncars
-Rcon: lrcon (Only Rcon Admins) (Use: /rcon lrcon)
-And some more!...
+##### With Access to Level 1, 2, 3 & 4 commands.
+##### Level 5 is Immune for all commands
+- Player: setlevel, fakechat, fakedeath, fakecmd
+- Adm: god, sgod, console
+- Other: pickup, object, respawncars
+- Rcon: lrcon (Only Rcon Admins) (Use: /rcon lrcon)
+- And some more!...
 
 ### How To Use
 
