@@ -58,18 +58,18 @@
 + Professional Spectating System (With TextDraw)
 + Many Lists - Wanteds, Muteds, Miniguns, Richs, Jaileds,...
 + Visible/Invisible System!
-+ Anti Advertisements System (IPs, Links, ...) (+Warnings, Easy to Enable/Disable in 'Config.cfg' file)
++ Anti Advertisements System (IPs, Links, etc..) (Warnings, Easy to Enable/Disable in 'Config.cfg' file)
 + Only one TextDraw! (For Gps System and Spectating System)
 + When AdminScript is Started, Show All Configurations in Console!
-+ Advanced VIP System! (When Account Types: Silver, Gold and Premium) (+Functions)
-+ Execute Commands (Run any command! (From FS and your GM) (Dialog, Key, Command)
-+ Fighting Styles (In Dialog) (Current Style)
-+ Second Rcon System (Two RCON Passwords for more Security) (Simple disable and config in top of script)
++ Advanced VIP System! (When Account Types: Silver, Gold and Premium with Functions)
++ Execute Commands (Run any command! (From FS and your GM with Dialogs, Keys and Commands)
++ Fighting Styles (In Dialog - Current Style)
++ Second Rcon System (Two RCON Passwords for more Security, simple toggle config in top of script)
 + Safety Question + Response (For case you forgot your password) (Response in Whirpool Hash)
 + VIP Players List, and VIP Players Chat! (*)
 + Duty System - Administrators now can enter in "Duty" or "Playing" Mode!
 + Flying Camera System (CamHack) (Only for Administradors) (Simple to disable in top of script)
-+ Announcements System! (+In TextDraw) (+Enable/Disable in Dialog) (+Simple to Config Announces in FS) (+Enable/Diable in 'Config' File!)
++ Announcements System! (In TextDraw) (Enable/Disable in Dialog) (Simple to Config Announces in FS) (Enable/Diable in 'Config' File!)
 + Admins MultColors in /admins Command! (Only if you change the colors in top of script)
 + Register & Login Commands with Dialog (Even if "MustLogin" and "MustRegister" is disabled)
 + Countdown System - With Seconds and Freeze or Unfreeze players!
