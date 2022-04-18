@@ -1,5 +1,5 @@
 # L.A.S LuX Admin System
-#### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable and made some tutorials in filterscript to understand it better.
+#### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable and made some tutorials and cleared debris to understand it better.
 
 UPDATE: 7/03/2010 [v1.6] | Whirlpool+Many CMDS+VIP+Much More
 
@@ -210,6 +210,9 @@ plugins Whirlpool.so
 ```
 - Save the file
 
+### Image Gallery
+https://imgur.com/a/cU6KgcS
+    
 ### Download
 
 [Version 1.6 Beta](https://github.com/isiddharthasharma/LuxAdmin/releases/tag/1.6)
