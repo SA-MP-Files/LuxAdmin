@@ -2278,7 +2278,7 @@ dcmd_setcolour(playerid,params[])
 				}
 			    case 3: { SetPlayerColor(player1,orange); 			colour = "Orange";
 				}
-				case 4: { SetPlayerColor(player1,orange);		 	colour = "Yellow";
+				case 4: { SetPlayerColor(player1,yellow);		 	colour = "Yellow";
 				}
 				case 5: { SetPlayerColor(player1,COLOR_GREEN1);  	colour = "Green";
 				}
