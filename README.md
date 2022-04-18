@@ -1,7 +1,12 @@
 # L.A.S LuX Admin System
 #### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable, given proper credit to owner and made some tutorials and cleared debris to understand it better.
 
--UPDATE: 7/03/2010 [v1.6]
+### Script
+
+- Type: Administration FilterScript
+- Version: 1.6 Beta
+- Last Update: 07/03/2010
+- Created By: LuxurioN
 
 ### CONTENTS
 - Script
@@ -13,13 +18,6 @@
 - Images
 - Download
 - Additional Credits
-
-### Script
-
-- Type: Administration FilterScript
-- Version: 1.6 Beta
-- Last Update: 07/03/2010
-- Created By: LuxurioN
 
 ### Functions
 
