@@ -168,11 +168,11 @@ Administration System per Level and Position
 Open LuxAdmin.pwn file
 Press CTRL+F and search a command (Ex: dcmd_giveweapon)
 ```
-if(PlayerInfo[playerid][Level] >= 3)
+if(PlayerInfo[playerid][Level] >= 4)
 ```
 to
 ```
-if(PlayerInfo[playerid][Level] >= 4)
+if(PlayerInfo[playerid][Level] >= 3)
 ```
 Now administrators level 3 can use the command!
 
@@ -210,16 +210,6 @@ If using Linux
 plugins Whirlpool.so 
 ```
 - Save the file
-
-### Other Method:
-Copy all folders 'filterscripts,pawno,scriptfiles,plugins&#3 9;
-Replace the folders of your server for them.
-Open 'Server.cfg'
-Go to in line 'filterscripts'
-Add 'LuxAdmin' (filterscripts LuxAdmin)
-Then add 'Whirlpool' in plugins line (plugins Whirlpool)
-Save the file!
-Done!
 
 ### Download
 
