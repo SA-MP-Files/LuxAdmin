@@ -76,9 +76,7 @@
 + Private Message (PM) (Simple disable in top of Script)
 And many other functions!...
 
-### Some Screens and Basic explanation:
-
-Administration System per Level and Position
+### Administration System per Level and Position
 - Level 1: Basic Moderator
 - Level 2: Moderator
 - Level 3: Master Moderator
