@@ -90,30 +90,30 @@ Administration System per Level and Position
 
 ### Commands
 #### Level 1: Basic Moderator
-Player: getinfo, weaps, ping, ip,
-Vehicle: fix, repair, addnos, tcar
-Tele: saveplacae, gotoplace
-Adm: onduty, saveskin, useskin, dontuseskin, setmytime, adminarea
-Other: lconfig, viplist, morning, reports, richlist, miniguns
+- Player: getinfo, weaps, ping, ip,
+- Vehicle: fix, repair, addnos, tcar
+- Tele: saveplacae, gotoplace
+- Adm: onduty, saveskin, useskin, dontuseskin, setmytime, adminarea
+- Other: lconfig, viplist, morning, reports, richlist, miniguns
 
 #### Level 2: Moderator
-+ Level 1 commands.
-Player: giveweapon, setcolour, burn, spawn, disarm, highlight, jetpack, flip, fu
-Player: warn, slap, (un)mute, laston, lspec, lspecoff
-Vehicle: acar, abike, aheli, aboat, aplane, lspecvehicle
-Tele: goto, vgoto, lgoto
-Adm: lmenu, clearchat, write, announce, announce2, screen, (un)lockcar
-Other: wanted, jailed, frozen, muted, fstyles
+##### With Access to Level 1 commands.
+- Player: giveweapon, setcolour, burn, spawn, disarm, highlight, jetpack, flip, fu
+- Player: warn, slap, (un)mute, laston, lspec, lspecoff
+- Vehicle: acar, abike, aheli, aboat, aplane, lspecvehicle
+- Tele: goto, vgoto, lgoto
+- Adm: lmenu, clearchat, write, announce, announce2, screen, (un)lockcar
+- Other: wanted, jailed, frozen, muted, fstyles
 
 #### Level 3: Master Moderator
-+ Level 1 and 2 commands.
-Set: set(health/armour/cash/score/skin/wanted/name/weather/time/world/interior/ping/gravity)
-All: setallskin, armourall, setallskin, setallwanted, setallweather, setalltime, setallworld
-All: setallscore, setallcash, giveallcash, giveallweapon, clearallchat, healall, disablechat
-Player: ubound, duel, akill, aka, caps,(un)freeze, kick, explode,(un)jail, force, eject, (s)removecash
-Vehicle: car, carhealth, carcolour, destroycar, vget, givecar
-Tele: teleplayer, gethere, get, move, moveplayer
-Other: gps, lcam, setpass, lammo, countdown, aweaps, invisible, visible
+##### With Access to Level 1 & 2 commands.
+- Set: set(health/armour/cash/score/skin/wanted/name/weather/time/world/interior/ping/gravity)
+- All: setallskin, armourall, setallskin, setallwanted, setallweather, setalltime, setallworld
+- All: setallscore, setallcash, giveallcash, giveallweapon, clearallchat, healall, disablechat
+- Player: ubound, duel, akill, aka, caps,(un)freeze, kick, explode,(un)jail, force, eject, (s)removecash
+- Vehicle: car, carhealth, carcolour, destroycar, vget, givecar
+- Tele: teleplayer, gethere, get, move, moveplayer
+- Other: gps, lcam, setpass, lammo, countdown, aweaps, invisible, visible
 
 #### Level 4: Administrator
 + Level 1,2 and 3 commands.
