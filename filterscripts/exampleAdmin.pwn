@@ -20,7 +20,7 @@ if(strcmp(cmd, "/armourme", true) == 0)
 	return 1;
 }
 
-if(strcmp(cmd, "/healme", true) == 0)
+if(strcmp(cmd, "/armourme", true) == 0)
 {
 	if(IsPlayerLuxAdminLevel(playerid, 4)) // Add the function that will check if the Player is Admin Level 4
 	{
