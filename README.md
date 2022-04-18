@@ -178,7 +178,7 @@ class Snippets
         #region SetText
         ClipboardService.SetText("if(PlayerInfo[playerid][Level] >= 4)");
         #endregion
-    
+    }
         #region SetText
         ClipboardService.SetText("if(PlayerInfo[playerid][Level] >= 3)");
         #endregion
