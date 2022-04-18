@@ -3,10 +3,9 @@
 #include <zcmd> // Add this line if you want to use ZCMD
 
 // Function: IsPlayerLuxAdmin(playerid) 
-// OR
 // Alternate Function: if(IsPlayerLuxAdm(playerid))
+
 // Function: if(IsPlayerLuxAdminLevel(playerid, LEVEL))
-// OR
 // Alternate Function: if (IsPlayerLuxAdm(playerid, LEVEL))
 // Level 1: Basic Moderator
 // Level 2: Moderator
