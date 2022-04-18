@@ -36,6 +36,7 @@ CMD:healme(playerid,parmas[])
 	return 1;
 }
 
+// Optional - Untested
 CMD:healme(playerid,parmas[])
 {
 	// Add the function that will check if the Player is NOT VIP.
