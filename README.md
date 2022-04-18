@@ -202,8 +202,10 @@ filterscripts LuxAdmin
 - Then add 'Whirlpool' in plugins line 
 ```
 plugins Whirlpool.dll
-    
+```
+
 If using Linux
+    
 ```
 plugins Whirlpool.so 
 ```
