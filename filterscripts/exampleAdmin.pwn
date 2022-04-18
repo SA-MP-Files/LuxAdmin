@@ -34,7 +34,7 @@ if(strcmp(cmd, "/armourme", true) == 0)
 // Command to Armour Admin (Any Level)
 if(strcmp(cmd, "/armourme", true) == 0)
 {
-	if(IsPlayerLuxAdmin(playerid)) // Add the function that will check if the Player is Admin
+	if(IsPlayerLuxAdmin(playerid)) // Checking via function if the Player is Administrator
 	{
 		SetPlayerArmour(playerid, 100);
 	}
@@ -45,7 +45,7 @@ if(strcmp(cmd, "/armourme", true) == 0)
 // Command to Armour Admin (Level 2 and above Only)
 if(strcmp(cmd, "/armourme", true) == 0)
 {
-	if(IsPlayerLuxAdminLevel(playerid, 2)) // Add the function that will check if the Player is Admin Level 2
+	if(IsPlayerLuxAdminLevel(playerid, 2)) // Checking via function if the Player is Administrator Level 2
 	{
 		SetPlayerArmour(playerid, 100);
 	}
@@ -64,7 +64,7 @@ CMD:armourme(playerid,parmas[])
 // Command to Armour Admin (Any Level)
 CMD:armourme(playerid,parmas[])
 {
-	if(IsPlayerLuxAdmin(playerid)) // Checking if player is Admin
+	if(IsPlayerLuxAdmin(playerid)) // Checking via function if the Player is Administrator
 	{
 		SetPlayerArmour(playerid, 100);
 	}
@@ -75,7 +75,7 @@ CMD:armourme(playerid,parmas[])
 // Command to Armour Admin (Level 2 and above Only)
 CMD:armourme(playerid,parmas[])
 {
-	if(IsPlayerLuxAdminLevel(playerid, 2)) // Add the function that will check if the Player is Admin Level 2
+	if(IsPlayerLuxAdminLevel(playerid, 2)) // Checking via function if the Player is Administrator Level 2
 	{
 		SetPlayerArmour(playerid, 100);
 	}
@@ -88,7 +88,7 @@ CMD:armourme(playerid,parmas[])
 // Command to Armour Admin (Any Level)
 CMD:armourme(playerid,parmas[])
 {
-	if(IsPlayerLuxAdm(playerid)) // Add the function that will check if the Player is Admin
+	if(IsPlayerLuxAdm(playerid)) // Checking via function if the Player is Administrator
 	{
 		SetPlayerArmour(playerid, 100);
 	}
@@ -99,7 +99,7 @@ CMD:armourme(playerid,parmas[])
 // Command to Armour Admin (Level 2 and above Only)
 CMD:armourme(playerid,parmas[])
 {
-	if (IsPlayerLuxAdm(playerid, 2)) // Add the function that will check if the Player is Admin Level 2
+	if (IsPlayerLuxAdm(playerid, 2)) // Checking via function if the Player is Administrator Level 2
 	{
 		SetPlayerArmour(playerid, 100);
 	}
