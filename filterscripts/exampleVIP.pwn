@@ -1,6 +1,6 @@
 #include <a_samp>
 #include <ladmin> // Add this line after <a_samp>
-#include <zmcd> // Add this line if you want to use ZCMD
+#include <zcmd> // Add this line if you want to use ZCMD
 
 // Go to your Command or Function (In Exemple, I used a command):
 if(strcmp(cmd, "/healme", true) == 0)
