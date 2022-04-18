@@ -2,8 +2,12 @@
 #include <ladmin> // Add this line after <a_samp>
 #include <zcmd> // Add this line if you want to use ZCMD
 
-// Function: IsPlayerLuxAdmin(playerid) OR if(IsPlayerLuxAdm(playerid))
-// Function: if(IsPlayerLuxAdminLevel(playerid, LEVEL)) OR if (IsPlayerLuxAdm(playerid, LEVEL))
+// Function: IsPlayerLuxAdmin(playerid) 
+// OR
+// Alternate Function: if(IsPlayerLuxAdm(playerid))
+// Function: if(IsPlayerLuxAdminLevel(playerid, LEVEL))
+// OR
+// Alternate Function: if (IsPlayerLuxAdm(playerid, LEVEL))
 // Level 1: Basic Moderator
 // Level 2: Moderator
 // Level 3: Master Moderator
