@@ -323,7 +323,7 @@ Done!
 
 ### Download
 
-Version 1.6 Beta:
+[Version 1.6 Beta](https://github.com/isiddharthasharma/LuxAdmin/releases/tag/1.6)
 
 ### Additional Credits
 Y_Less - Whirlpool Plugin
