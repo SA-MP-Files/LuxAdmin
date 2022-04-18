@@ -135,26 +135,26 @@ Administration System per Level and Position
 ### How To Use
 
 #### RCON Login
-Check your Server Config (server.cfg) and see RCON password (you may need to change it if you freshly downloaded the server files)
-Go in game and write /rcon login <your password>
+- Check your Server Config (server.cfg) and see RCON password (you may need to change it if you freshly downloaded the server files)
+- Go in game and write /rcon login <your password>
     
 #### Set yourself/a player as Administrator
-Connect to your server
-Register new Account
-Log in RCON Admin
-Type /setvip [PlayerID] [Level]
+- Connect to your server
+- Register new Account
+- Log in RCON Admin
+- Type /setvip [PlayerID] [Level]
 
 #### Set yourself/a player as VIP
-Connect to your server
-Register new Account
-Log in RCON Admin
-Type /setvip [PlayerID] [AccountType]
+- Connect to your server
+- Register new Account
+- Log in RCON Admin
+- Type /setvip [PlayerID] [AccountType/Level]
 
 #### Making Command/Function only for VIP Members:
-[Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/How%20to%20make%20Command%20for%20VIP.pwn) for example script
+- [Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/How%20to%20make%20Command%20for%20VIP.pwn) for example script
 
 #### Making Command/Function only for specified VIP Account (Silver,Gold,Premium):
-[Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/exampleVIP2.pwn) for example script
+- [Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/exampleVIP2.pwn) for example script
     
 #### Make command for only administrators level 4 use:
 pawn Code:
