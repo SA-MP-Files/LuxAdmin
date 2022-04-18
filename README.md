@@ -1,7 +1,7 @@
 # L.A.S LuX Admin System
 #### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable, given proper credit to owner and made some tutorials and cleared debris to understand it better.
 
-### Script
+### ABOUT
 
 - Type: Administration FilterScript
 - Version: 1.6 Beta
@@ -19,7 +19,7 @@
 - Download
 - Additional Credits
 
-### Functions
+### FUNCTIONS
 
 + Whirlpool Hashed Passwords (Greater security)
 + Account System (Register, Login, Changepass)
@@ -76,7 +76,7 @@
 + Private Message (PM) (Simple disable in top of Script)
 And many other functions!...
 
-### Administration System per Level and Position
+### ADMINISTRATOR LEVELS
 - Level 1: Basic Moderator
 - Level 2: Moderator
 - Level 3: Master Moderator
@@ -84,7 +84,7 @@ And many other functions!...
 - Level 5: Master Administrator
 - Rcon: Rcon Administrator
 
-### Commands
+### COMMANDS
 #### Level 1: Basic Moderator
 - Player: getinfo, weaps, ping, ip,
 - Vehicle: fix, repair, addnos, tcar
@@ -128,7 +128,7 @@ And many other functions!...
 - Rcon: lrcon (Only Rcon Admins) (Use: /rcon lrcon)
 - And some more!...
 
-### How To Use
+### HOW TO USE
 
 #### RCON Login
 - Check your Server Config (server.cfg) and see RCON password (you may need to change it if you freshly downloaded the server files)
@@ -182,7 +182,7 @@ Just change the Command of your preference (Lines 90-92):
 #define ChangePassCommand changepass // Define the ChangePassword Command
 ```
 
-### Installation
+### INSTALLATION
 - Download the file
 - Unzip the Files!
 - Put 'LuxAdmin.pwn' and 'Luxadmin.amx' in your 'filterscripts' folder
@@ -207,24 +207,24 @@ plugins Whirlpool.so
 ```
 - Save the file
 
-### Bugs (v1.6 Beta - based on v1.7 logs)
+### BUGS (v1.6 Beta - based on v1.7 logs)
 - /setcolor has a bug where it sets orange colour (new)
 - Flying Cam
 - Two RCON
 - Outdated Anti-Cheat
 - Security Question
     
-### Image Gallery
+### IMAGE GALLERY
 https://imgur.com/a/cU6KgcS
     
-### Download
+### DOWNLOAD
 
 [Version 1.6 Beta](https://github.com/isiddharthasharma/LuxAdmin/releases/tag/1.6)
 
-### Credits
+### CREDITS
 - LuxurioN for Original Script
 
-### Additional Credits
+### ADDITIONAL CREDITS
 - Y_Less - Whirlpool Plugin
 - Some commands & some functions are based in LAdmin v4
 - Kyeman - Spectating
