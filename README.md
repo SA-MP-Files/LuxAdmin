@@ -163,17 +163,16 @@ Administration System per Level and Position
 - [Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/exampleAdmin.pwn) for example script
 
 ### Change Level of a LuxAdmin command:
-Open LuxAdmin.pwn file
-Press CTRL+F and search a command (Ex: dcmd_giveweapon)
-Change number in Line: "
 
 ### Example (Command only for Admins Level 4):
-![Quote](https://github-readme-quotes.herokuapp.com/quote?theme=dark)
-if(PlayerInfo[playerid][Level] >= 4)
+Open LuxAdmin.pwn file
+Press CTRL+F and search a command (Ex: dcmd_giveweapon)
+
+ClipboardService.SetText("if(PlayerInfo[playerid][Level] >= 4)");
 Set to:
-pawn Code:
-if(PlayerInfo[playerid][Level] >= 3)
-Ready! Ready, now administrators level 3 can use the command!
+ClipboardService.SetText("if(PlayerInfo[playerid][Level] >= 3)");
+
+Now administrators level 3 can use the command!
 
 
 ### Change Account Commands:
