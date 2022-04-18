@@ -211,9 +211,13 @@ plugins Whirlpool.so
 ```
 - Save the file
 
-### Bugs
-- /setcolor has a bug where it sets orange colour
-
+### Bugs (v1.6 Beta - based on v1.7 logs)
+- /setcolor has a bug where it sets orange colour (new)
+- Flying Cam
+- Two RCON
+- Outdated Anti-Cheat
+- Security Question
+    
 ### Image Gallery
 https://imgur.com/a/cU6KgcS
     
