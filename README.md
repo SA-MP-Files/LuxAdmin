@@ -24,13 +24,13 @@ UPDATE: 7/03/2010 [v1.6] | Whirlpool+Many CMDS+VIP+Much More
 
 + Whirlpool Hashed Passwords (Greater security)
 + Account System (Register, Login, Changepass)
-+ Save Player Statistics (Deaths+Kills+Weapons+Money+Position+TimeInServer+ Ip+Health+Armour+Score+WantedLevel)
++ Save Player Statistics (Deaths, Kills, Weapons, Money, Position, TimeInServer,IP, Health, Armour, Score, WantedLevel)
 + Automatically Login!
 + Anti WeaponsHack (Easy to configure forbidden weapons in File)
 + Create Teleport System (Easy Create/Delete/Use new teleports InGame)
 + Lock/Unlock Server (With Dialog)
 + Many Dialogs (Vehicles,Teleports,Weapons,Server Time & Weather, and more...)
-+ Anti Forbidden Names,Words and Clan (Easy to Configure in File)
++ Anti Forbidden Names, Words and Clan (Easy to Configure in File)
 + InGame RCON Console (With Dialog)
 + Easy to configure more important options (In File and InScript).
 + Register & Login in Dialog! (GUI) (Only MustLogin is enabled)
