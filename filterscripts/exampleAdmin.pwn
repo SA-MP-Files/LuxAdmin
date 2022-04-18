@@ -9,7 +9,7 @@
 // Level 3: Master Moderator
 // Level 4: Administrator
 // Level 5: Master Administrator
-// RCON: Rcon Administrator
+// RCON: RCON Administrator
 // Note: These can be configurable in main LuxAdmin Script & Max Level can be edited in LuxAdmin Script.
 
 
