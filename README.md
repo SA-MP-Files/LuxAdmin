@@ -11,21 +11,6 @@ Development: 1.7
 
 Possible release date: I really got many important things to do in my life. So, 1.7 will probably take a while to be released. For those who dont want to wait, feel free to edit the AdminScript, just keep the credits.
 
-### Basic Info about 1.7:
-
-- YCMD, Sscanf,Foreach,y_ini.
-- Fixed "TwoRcon" bugs.
-- Fixed Some Linux Bugs.
-- Added + Alot of dialogs.
-- 100% for 0.3c SA-MP
-- Fixed some things to improve performance. (Thanks Y_Less).
-- Some things removed. Believe me, you will not miss them!
-- Fixed a mistake with "Security Question" system.
-- Changed GPS System (Oh, u'll really like the new )
-- Fixed "Flying Cam" by Sandra to be 100% compatible with 0.3c
-- AntiCheats Improved (Now I'm using some funcions from JunkBuster).
-And alot of new things that maybe will make you happy.
-
 ### Menu
 Menu
 Script
