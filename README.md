@@ -3,21 +3,15 @@
 
 UPDATE: 7/03/2010 [v1.6] | Whirlpool+Many CMDS+VIP+Much More
 
-Development: 1.7
-
-Possible release date: I really got many important things to do in my life. So, 1.7 will probably take a while to be released. For those who dont want to wait, feel free to edit the AdminScript, just keep the credits.
-
-### Menu
-Menu
-Script
-Functions
-Commands
-Log
-How To Use
-Installation
-Bugs
-Download
-Additional Credits
+### CONTENTS
+- Script
+- Functions
+- Commands
+- How To Use
+- Installation
+- Bugs
+- Download
+- Additional Credits
 
 ### Script
 
@@ -82,24 +76,17 @@ Licence: In end of post
 + Register & Login Commands with Dialog (Even if "MustLogin" and "MustRegister" is disabled)
 + Countdown System - With Seconds and Freeze or Unfreeze players!
 + Private Message (PM) (Simple disable in top of Script)
-
 And many other functions!...
-
 
 ### Some Screens and Basic explanation:
 
 Administration System per Level and Position
-
-Level 1: Basic Moderator
-Level 2: Moderator
-Level 3: Master Moderator
-Level 4: Administrator
-Level 5: Master Administrator
-Rcon: Rcon Administrator
-
-Gps System (I Tested with Npc)
-Spec System
-See more in log category!...
+- Level 1: Basic Moderator
+- Level 2: Moderator
+- Level 3: Master Moderator
+- Level 4: Administrator
+- Level 5: Master Administrator
+- Rcon: Rcon Administrator
 
 ### Commands
 #### Level 1: Basic Moderator
@@ -145,61 +132,28 @@ Other: pickup, object, respawncars
 Rcon: lrcon (Only Rcon Admins) (Use: /rcon lrcon)
 And some more!...
 
-
 ### How To Use
-### Make a new player VIP
-Making Command/Function only for VIP Members
-Making Command/Function only for specified VIP Account (Silver,Gold,Premium)
-Make yourself Admin
-Using Admin Level in another script
-Change Level of a LuxAdmin command
-Change Account Commands
 
-#### Make a new player VIP:
+#### RCON Login
+Check your Server Config (server.cfg) and see RCON password (you may need to change it if you freshly downloaded the server files)
+Go in game and write /rcon login <your password>
+    
+#### Set yourself/a player as Administrator
+Connect to your server
+Register new Account
+Log in RCON Admin
+Type /setvip [PlayerID] [Level]
+
+#### Set yourself/a player as VIP
 Connect to your server
 Register new Account
 Log in RCON Admin
 Type /setvip [PlayerID] [AccountType]
 
-
 #### Making Command/Function only for VIP Members:
 [Click Here](https://github.com/isiddharthasharma/LuxAdmin/blob/main/filterscripts/How%20to%20make%20Command%20for%20VIP.pwn)
 
 #### Making Command/Function only for specified VIP Account (Silver,Gold,Premium):
-
-1. Add in top of your Script:
-pawn Code:
-#include 
-
-2. Go to your Command or Function (In Exemple, I used a command):
-pawn Code:
-if(strcmp(cmd, "/healme", true) == 0)
-{
-SetPlayerHealth(playerid, 100);
-return 1;
-}
-
-3. Add the function that will check if the Player is Vip (Specified Type):
-pawn Code:
-If(IsPlayerVipType(playerid,TYPE))
-//Types:
-//1 - Silver Account
-//2 - Gold Account
-//3 - Premium Account
-
-It will look like this (In Exemple, I used for Only Gold(and Silver) Account:
-pawn Code:
-if(strcmp(cmd, "/healme", true) == 0)
-{
-if(IsPlayerVipType(playerid,2))
-{
-SetPlayerHealth(playerid, 100);
-}
-else SendClientMessage(playerid, COLOR_WHITE, "ERROR: You not is a Silver or Gold Member!");
-return 1;
-}
-
-4. Done!
 
 
 #### Make command for only administrators level 4 use:
