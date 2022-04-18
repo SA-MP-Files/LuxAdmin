@@ -15,11 +15,10 @@ UPDATE: 7/03/2010 [v1.6] | Whirlpool+Many CMDS+VIP+Much More
 
 ### Script
 
-Type: Administration FilterScript
-Version: 1.6 Beta
-Last Update: 07/03/2010
-Created By: LuxurioN
-Licence: In end of post
+- Type: Administration FilterScript
+- Version: 1.6 Beta
+- Last Update: 07/03/2010
+- Created By: LuxurioN
 
 ### Functions
 
@@ -216,7 +215,7 @@ plugins Whirlpool.so
 [Version 1.6 Beta](https://github.com/isiddharthasharma/LuxAdmin/releases/tag/1.6)
 
 ### Credits
-- Lux for Original Script
+- LuxurioN for Original Script
 
 ### Additional Credits
 - Y_Less - Whirlpool Plugin
