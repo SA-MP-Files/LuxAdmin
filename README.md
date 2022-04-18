@@ -1,11 +1,7 @@
 # L.A.S LuX Admin System
-#### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable.
+#### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable and made some tutorials in filterscript to understand it better.
 
-UPDATE: 7/03[v1.6]
-
-Whirlpool+Many CMDS+VIP+Much More
-
-(v1.5) Released In: 07/03/2010
+UPDATE: 7/03/2010 [v1.6] | Whirlpool+Many CMDS+VIP+Much More
 
 Development: 1.7
 
