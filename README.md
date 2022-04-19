@@ -1,4 +1,5 @@
 # L.A.S LuX Admin System
+#### Word of Recommendation: This code is outdated and does not have ZCMD, Y_INI/DB/MYSQL, kindly refer to other scripts. This is a public archive.
 #### NOTE: This is not my work and I do not maintain it, I created a github repository for it for easy access as the forums are no longer accessable, given proper credit to owner and made some tutorials and cleared debris to understand it better.
 
 ### ABOUT
@@ -209,7 +210,6 @@ plugins Whirlpool.so
 - Save the file
 
 ### BUGS (v1.6 Beta - based on v1.7 logs)
-- /setcolor has a bug where it sets orange colour (- Fixed by me)
 - Flying Cam
 - Two RCON
 - Outdated Anti-Cheat
