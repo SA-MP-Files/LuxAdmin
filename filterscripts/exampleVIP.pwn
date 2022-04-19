@@ -40,7 +40,7 @@ if(strcmp(cmd, "/healme", true) == 0)
 	{
 		SetPlayerHealth(playerid, 100);
 	}
-	else SendClientMessage(playerid, -1, "ERROR: You need to be VIP Level 2to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You need to be VIP Level 2 to use this command!");
 	return 1;
 }
 
@@ -70,6 +70,6 @@ CMD:healme(playerid,parmas[])
 	{
 		SetPlayerHealth(playerid, 100);
 	}
-	else SendClientMessage(playerid, -1, "ERROR: You need to be VIP Level 2to use this command!");
+	else SendClientMessage(playerid, -1, "ERROR: You need to be VIP Level 2 to use this command!");
 	return 1;
 }
